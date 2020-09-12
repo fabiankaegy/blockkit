@@ -9,12 +9,14 @@ The Idea behind this exploration is to create a wrapper around the `registerBloc
 import { registerBlock } from 'blockkit';
 
 registerBlock( 'blockkit/block', {
+    ...,
     supports: {
         colors: [
             'background'
             'text'
         ]
-    }
+    },
+    ...
 } );
 ```
 

@@ -11,10 +11,12 @@ import { registerBlock } from 'blockkit';
 registerBlock( 'blockkit/block', {
     ...,
     supports: {
-        colors: [
-            'background'
-            'text'
-        ]
+        blockkit: {
+            colors: [
+                'background'
+                'text'
+            ]
+        }
     },
     ...
 } );

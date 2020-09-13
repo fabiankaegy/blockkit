@@ -1,6 +1,6 @@
 {
   "name": "blockkit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This is an exploratory repository to explore the options for creating a wrapper of the wordpress registerBlockType function to add defaults",
   "main": "src/index.js",
   "directories": {

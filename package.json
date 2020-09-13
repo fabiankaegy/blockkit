@@ -1,0 +1,31 @@
+{
+  "name": "blockkit",
+  "version": "1.0.0",
+  "description": "This is an exploratory repository to explore the options for creating a wrapper of the wordpress registerBlockType function to add defaults",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example",
+    "src": "src"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.9.6",
+		"@wordpress/babel-preset-default": "^4.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fabiankaegy@github.com/fabiankaegy/blockkit.git"
+  },
+  "keywords": [],
+  "author": "Fabian Kägy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/fabiankaegy/blockkit/issues"
+  },
+  "homepage": "https://github.com/fabiankaegy/blockkit#readme",
+  "bin": {
+		"blockkit": "./src/index.js"
+	}
+}

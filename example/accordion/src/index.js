@@ -1,8 +1,16 @@
-import { registerBlock } from '../../../index';
+import { registerBlock } from 'blockkit';
 
 registerBlock( 'blockkit/accordion', {
     title: 'Accordion',
     category: 'common',
+    supports: {
+        blockkit: {
+            colors: [ 
+                'background',
+                'text'
+            ]
+        }
+    },
     edit: (props) => {
 
         const { className } = props;
